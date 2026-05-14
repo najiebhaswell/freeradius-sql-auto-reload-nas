@@ -1,0 +1,11 @@
+[Unit]
+Description=FreeRADIUS NAS Change Reloader
+After=mysql.service freeradius.service
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c 'while true; do python3 /usr/local/bin/nas-reloader.py; sleep 30; done'
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

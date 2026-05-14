@@ -1,0 +1,8 @@
+{
+  "database": {
+    "host": "localhost",
+    "username": "root",
+    "password": "ISI_PASSWORD_MYSQL",
+    "database": "radius_Ds3lPX"
+  }
+}
