@@ -74,7 +74,7 @@ Sesuaikan isinya dengan kredensial database kamu:
     "host": "localhost",
     "username": "root",
     "password": "ISI_PASSWORD_MYSQL",
-    "database": "radius_Ds3lPX"
+    "database": "radius"
   }
 }
 ```
