@@ -42,9 +42,9 @@ INSERT INTO nas_changes (action) VALUES ('init');
 
 ## Langkah 2 — Install Dependencies
 
+Karena Debian 12 memproteksi environment Python sistem, instalasi menggunakan `apt`:
 ```bash
-apt install python3 python3-pip -y
-pip3 install pymysql
+apt install python3-pymysql -y
 ```
 
 ## Langkah 3 — Setup Script Reloader
