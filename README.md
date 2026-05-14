@@ -112,3 +112,8 @@ FreeRADIUS restarted successfully.
 3. `nas-reloader.py` (loop tiap 30 detik) mendeteksi perubahan ID.
 4. Menjalankan `systemctl restart freeradius`.
 5. FreeRADIUS me-reload NAS dari Database.
+
+## Credits
+
+Terinspirasi dari repository [jda/FreeRADIUS-NAS-change-restarter](https://github.com/jda/FreeRADIUS-NAS-change-restarter).
+
