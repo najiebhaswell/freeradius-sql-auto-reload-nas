@@ -6,7 +6,7 @@ Script dan konfigurasi untuk me-reload service FreeRADIUS secara otomatis ketika
 
 Login ke MySQL (sesuaikan username, password, dan nama database):
 ```bash
-mysql -u root -p radius_Ds3lPX
+mysql -u root -p radius
 ```
 
 Lalu jalankan SQL yang ada di file `nas_triggers.sql`:
